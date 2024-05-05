@@ -1,0 +1,174 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+
+.btn{
+    background: black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+ .btn:hover{
+    color: black;
+    background: white;
+    border: solid black 2px;
+    padding: 5px 10px;
+ }
+ .side-menu{
+    background-color: black;
+    width: 40vh;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .side-menu .brand-name{
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+ }
+
+ .side-menu .brand-name h1{
+    color: white;
+ }
+
+ .side-menu li{
+    font-size: 20px;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    color: white;
+ }
+
+ .side-menu li:hover{
+    color: black;
+    background: white;
+}
+.side-menu li img{
+    width: 20px;
+    height: 20px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid #999;
+}
+
+.container{
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+    background: #f1f1f1;
+}
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 13vh;
+    background: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.container .header .nav{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.side-menu{
+    background-color: green;
+    width: 40vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.side-menu .brand-name{
+    color: white;
+    align-items: center;
+    height: 10vh;
+    justify-content: center;
+    display: flex;
+}
+
+.side-menu li{
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.side-menu li:hover{
+    background: white;
+    color: green;
+}
+
+.container{
+    width: 80vh;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    right: 0%;
+}
+
+.container .header{
+
+    width: 80vw;
+    height: 13vh;
+    top: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0,4px,8px,0 rgb(0, 0, 0.8);
+}
+
+.container .header .nav{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .header .nav h1{
+    color: green;
+}
+
+.container .header .nav .user{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
